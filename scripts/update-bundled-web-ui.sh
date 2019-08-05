@@ -72,7 +72,7 @@ if [ "$CUSTOM_REPO" = false ] ; then
     else
       cd "$REPO_DIR"
 
-      git checkout master
+      git checkout custom-html-adbutler-ads
       git fetch --tags
       git pull
 
