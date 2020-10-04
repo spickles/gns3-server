@@ -240,7 +240,7 @@ EOFI
 chown root:root /etc/init/gns3.conf
 chmod 644 /etc/init/gns3.conf
 
-
+/*
 log "Start GNS3 service"
 set +e
 service gns3 stop
@@ -279,6 +279,7 @@ EOFI
     systemctl enable gns3
     systemctl start gns3
 fi
+*/
 
 log "GNS3 installed with success"
 
